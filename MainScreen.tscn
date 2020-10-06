@@ -1,0 +1,69 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://images/MainScreen/Wall.png" type="Texture" id=1]
+[ext_resource path="res://images/MainScreen/Goblet3 .png" type="Texture" id=2]
+[ext_resource path="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani6.png" type="Texture" id=3]
+[ext_resource path="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani7.png" type="Texture" id=4]
+[ext_resource path="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani3.png" type="Texture" id=5]
+[ext_resource path="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani2.png" type="Texture" id=6]
+[ext_resource path="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani4.png" type="Texture" id=7]
+[ext_resource path="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani5.png" type="Texture" id=8]
+[ext_resource path="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani1.png" type="Texture" id=9]
+[ext_resource path="res://images/MainScreen/VPPixel-Simplified.otf" type="DynamicFontData" id=10]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 9 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 10 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ParedeBG" type="Sprite" parent="."]
+position = Vector2( 465.29, 581.837 )
+scale = Vector2( 1.20284, 1.51916 )
+texture = ExtResource( 1 )
+
+[node name="Tocha1" type="Node2D" parent="."]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Tocha1"]
+position = Vector2( 332.657, 264.572 )
+scale = Vector2( 2.59017, 4.89678 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+
+[node name="Tocha" type="Sprite" parent="Tocha1"]
+position = Vector2( 336, 344.532 )
+scale = Vector2( 5.84286, 6.32904 )
+texture = ExtResource( 2 )
+
+[node name="Tocha2" type="Node2D" parent="."]
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Tocha2"]
+position = Vector2( 694.696, 260.33 )
+scale = Vector2( 2.59017, 4.89678 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+
+[node name="Tocha2" type="Sprite" parent="Tocha2"]
+position = Vector2( 700, 344.532 )
+scale = Vector2( 5.84286, 6.32904 )
+texture = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 420.0
+margin_top = 336.0
+margin_right = 616.0
+margin_bottom = 392.0
+custom_fonts/font = SubResource( 2 )
+text = "Play"
+__meta__ = {
+"_edit_use_anchors_": false
+}
