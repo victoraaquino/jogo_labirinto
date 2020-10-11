@@ -40,8 +40,11 @@ script = ExtResource( 9 )
 position = Vector2( 9.35444, -16.6681 )
 scale = Vector2( 2.16931, 2.19058 )
 frames = SubResource( 1 )
-animation = "run2"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
 position = Vector2( 7.89165, -3.73813 )
 shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
+current = true
+zoom = Vector2( 0.3, 0.3 )
