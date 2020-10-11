@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/purplegoblet3flameani3.png-c088c5af2119981bdeac5c7d8f1873e5.stex"
+path="res://.import/wizzardBlack.png-6c4a60aad1decc5ed5c8fe5b6158b4c7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani3.png"
-dest_files=[ "res://.import/purplegoblet3flameani3.png-c088c5af2119981bdeac5c7d8f1873e5.stex" ]
+source_file="res://images/MainScreen/wizzardBlack.png"
+dest_files=[ "res://.import/wizzardBlack.png-6c4a60aad1decc5ed5c8fe5b6158b4c7.stex" ]
 
 [params]
 

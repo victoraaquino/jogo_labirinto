@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/purplegoblet3flameani3.png-c088c5af2119981bdeac5c7d8f1873e5.stex"
+path="res://.import/dinoBlack.png-fe092f8d13a75398257bca90dc891dae.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/MainScreen/Purple Animation Files/purplegoblet3flameani3.png"
-dest_files=[ "res://.import/purplegoblet3flameani3.png-c088c5af2119981bdeac5c7d8f1873e5.stex" ]
+source_file="res://images/MainScreen/dinoBlack.png"
+dest_files=[ "res://.import/dinoBlack.png-fe092f8d13a75398257bca90dc891dae.stex" ]
 
 [params]
 
