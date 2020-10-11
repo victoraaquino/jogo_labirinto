@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://images/MainScreen/Wall.png" type="Texture" id=1]
 [ext_resource path="res://images/MainScreen/dinoBlack.png" type="Texture" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://images/players/elf_f_idle_anim_f2.png" type="Texture" id=6]
 [ext_resource path="res://images/players/lizard_m_idle_anim_f1.png" type="Texture" id=7]
 [ext_resource path="res://images/MainScreen/VPPixel-Simplified.otf" type="DynamicFontData" id=8]
+[ext_resource path="res://go.gd" type="Script" id=9]
+[ext_resource path="res://Select.gd" type="Script" id=10]
 
 [sub_resource type="DynamicFont" id=1]
 size = 62
@@ -15,6 +17,7 @@ font_data = ExtResource( 8 )
 
 [node name="Select" type="Node2D"]
 position = Vector2( 26.9087, 70.6353 )
+script = ExtResource( 10 )
 
 [node name="Wall" type="Sprite" parent="."]
 position = Vector2( 487.342, 229.265 )
@@ -70,6 +73,11 @@ margin_bottom = 414.859
 custom_fonts/font = SubResource( 1 )
 text = "GO"
 flat = true
+script = ExtResource( 9 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="toggled" from="dino" to="." method="_on_dino_toggled"]
+[connection signal="toggled" from="elf" to="." method="_on_elf_toggled"]
+[connection signal="toggled" from="wizz" to="." method="_on_wizz_toggled"]
+[connection signal="pressed" from="go" to="go" method="_on_go_pressed"]

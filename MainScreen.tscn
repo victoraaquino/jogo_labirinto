@@ -22,7 +22,7 @@ font_data = ExtResource( 10 )
 animations = [ {
 "frames": [ ExtResource( 9 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 4 ) ],
 "loop": true,
-"name": "default",
+"name": "foguinho",
 "speed": 10.0
 } ]
 
@@ -58,11 +58,12 @@ __meta__ = {
 
 [node name="Tocha1" type="Node2D" parent="."]
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="Tocha1"]
+[node name="Fogo1" type="AnimatedSprite" parent="Tocha1"]
 position = Vector2( 332.657, 264.572 )
 scale = Vector2( 2.59017, 4.89678 )
-frames = SubResource( 1 )
-frame = 4
+frames = SubResource( 2 )
+animation = "foguinho"
+frame = 3
 playing = true
 
 [node name="Tocha" type="Sprite" parent="Tocha1"]
@@ -72,11 +73,12 @@ texture = ExtResource( 2 )
 
 [node name="Tocha2" type="Node2D" parent="."]
 
-[node name="AnimatedSprite2" type="AnimatedSprite" parent="Tocha2"]
-position = Vector2( 694.696, 260.33 )
+[node name="Fogo2" type="AnimatedSprite" parent="Tocha2"]
+position = Vector2( 692.987, 263.383 )
 scale = Vector2( 2.59017, 4.89678 )
-frames = SubResource( 1 )
-frame = 4
+frames = SubResource( 2 )
+animation = "foguinho"
+frame = 1
 playing = true
 
 [node name="Tocha2" type="Sprite" parent="Tocha2"]

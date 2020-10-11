@@ -5,4 +5,4 @@ func _ready():
 
 
 func _on_Play_pressed():
-	get_tree().change_scene("res://CharecterSelect.tscn")
+	get_tree().change_scene("res://Fase1.tscn")

@@ -24,7 +24,7 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 25.5845, 17.7228 )
+extents = Vector2( 10.5998, 15.2157 )
 
 [node name="personagem1" type="Node2D"]
 position = Vector2( 218.241, 371.612 )
@@ -32,19 +32,20 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+[node name="Jogador" type="KinematicBody2D" parent="."]
 scale = Vector2( 0.567471, 0.67017 )
 script = ExtResource( 9 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Jogador"]
 position = Vector2( 9.35444, -16.6681 )
 scale = Vector2( 2.16931, 2.19058 )
 frames = SubResource( 1 )
+playing = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador"]
 position = Vector2( 7.89165, -3.73813 )
 shape = SubResource( 2 )
 
-[node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
+[node name="Camera2D" type="Camera2D" parent="Jogador"]
 current = true
 zoom = Vector2( 0.3, 0.3 )
