@@ -35,7 +35,7 @@ texture = ExtResource( 1 )
 position = Vector2( 332.657, 264.572 )
 scale = Vector2( 2.59017, 4.89678 )
 frames = SubResource( 1 )
-frame = 2
+frame = 5
 playing = true
 
 [node name="Tocha" type="Sprite" parent="Tocha1"]
@@ -49,7 +49,7 @@ texture = ExtResource( 2 )
 position = Vector2( 694.696, 260.33 )
 scale = Vector2( 2.59017, 4.89678 )
 frames = SubResource( 1 )
-frame = 2
+frame = 5
 playing = true
 
 [node name="Tocha2" type="Sprite" parent="Tocha2"]
