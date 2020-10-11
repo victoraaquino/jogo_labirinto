@@ -24,21 +24,24 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 9.46969, 9.33183 )
+extents = Vector2( 25.5845, 17.7228 )
 
-[node name="personagem" type="Node2D"]
-position = Vector2( 133.828, 374.508 )
+[node name="personagem1" type="Node2D"]
+position = Vector2( 218.241, 371.612 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+scale = Vector2( 0.567471, 0.67017 )
 script = ExtResource( 9 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
+position = Vector2( 9.35444, -16.6681 )
+scale = Vector2( 2.16931, 2.19058 )
 frames = SubResource( 1 )
-animation = "run"
+animation = "run2"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
-position = Vector2( -0.794598, 4.50271 )
+position = Vector2( 7.89165, -3.73813 )
 shape = SubResource( 2 )
