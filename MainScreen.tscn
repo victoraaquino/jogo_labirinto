@@ -61,11 +61,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Tocha1"]
 position = Vector2( 332.657, 264.572 )
 scale = Vector2( 2.59017, 4.89678 )
-<<<<<<< Updated upstream
 frames = SubResource( 1 )
-=======
-frames = SubResource( 2 )
->>>>>>> Stashed changes
 frame = 4
 playing = true
 
@@ -79,11 +75,7 @@ texture = ExtResource( 2 )
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="Tocha2"]
 position = Vector2( 694.696, 260.33 )
 scale = Vector2( 2.59017, 4.89678 )
-<<<<<<< Updated upstream
 frames = SubResource( 1 )
-=======
-frames = SubResource( 2 )
->>>>>>> Stashed changes
 frame = 4
 playing = true
 
