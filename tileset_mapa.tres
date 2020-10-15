@@ -9,7 +9,7 @@ extents = Vector2( 7.95385, 1.93583 )
 extents = Vector2( 7.95404, 1.92201 )
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 2.21379, 8.24936 )
+extents = Vector2( 1.6628, 8.24936 )
 
 [sub_resource type="RectangleShape2D" id=5]
 extents = Vector2( 2.26626, 8.14198 )
@@ -24,10 +24,10 @@ extents = Vector2( 7.9995, 1.884 )
 extents = Vector2( 2.41112, 2.06721 )
 
 [sub_resource type="RectangleShape2D" id=8]
-extents = Vector2( 2.72697, 8.5096 )
+extents = Vector2( 1.92796, 8.5096 )
 
 [sub_resource type="RectangleShape2D" id=9]
-extents = Vector2( 2.75076, 8.08758 )
+extents = Vector2( 2.15392, 8.08758 )
 
 [sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 7.68715, 7.81102 )
@@ -251,8 +251,8 @@ extents = Vector2( 7.68715, 7.81102 )
 10/tile_mode = 0
 10/occluder_offset = Vector2( 8, 8 )
 10/navigation_offset = Vector2( 8, 8 )
-10/shape_offset = Vector2( 13.2441, 8 )
-10/shape_transform = Transform2D( 1, 0, 0, 1, 13.2441, 8 )
+10/shape_offset = Vector2( 13.5976, 8 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 13.5976, 8 )
 10/shape = SubResource( 4 )
 10/shape_one_way = false
 10/shape_one_way_margin = 1.0
@@ -261,7 +261,7 @@ extents = Vector2( 7.68715, 7.81102 )
 "one_way": false,
 "one_way_margin": 1.0,
 "shape": SubResource( 4 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 13.2441, 8 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 13.5976, 8 )
 } ]
 10/z_index = 0
 11/name = "Sprite12"
@@ -377,8 +377,8 @@ extents = Vector2( 7.68715, 7.81102 )
 16/tile_mode = 0
 16/occluder_offset = Vector2( 8, 8 )
 16/navigation_offset = Vector2( 8, 8 )
-16/shape_offset = Vector2( 13.2441, 8 )
-16/shape_transform = Transform2D( 1, 0, 0, 1, 13.2441, 8 )
+16/shape_offset = Vector2( 13.5092, 8 )
+16/shape_transform = Transform2D( 1, 0, 0, 1, 13.5092, 8 )
 16/shape = SubResource( 8 )
 16/shape_one_way = false
 16/shape_one_way_margin = 1.0
@@ -387,7 +387,7 @@ extents = Vector2( 7.68715, 7.81102 )
 "one_way": false,
 "one_way_margin": 1.0,
 "shape": SubResource( 8 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 13.2441, 8 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 13.5092, 8 )
 } ]
 16/z_index = 0
 17/name = "Sprite18"

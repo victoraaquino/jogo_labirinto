@@ -12,7 +12,7 @@ extents = Vector2( 7.95404, 1.92201 )
 extents = Vector2( 7.68715, 7.81102 )
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 2.21379, 8.24936 )
+extents = Vector2( 1.6628, 8.24936 )
 
 [sub_resource type="RectangleShape2D" id=5]
 extents = Vector2( 2.26626, 8.14198 )
@@ -24,10 +24,10 @@ extents = Vector2( 7.9995, 1.884 )
 extents = Vector2( 2.41112, 2.06721 )
 
 [sub_resource type="RectangleShape2D" id=8]
-extents = Vector2( 2.72697, 8.5096 )
+extents = Vector2( 1.92796, 8.5096 )
 
 [sub_resource type="RectangleShape2D" id=9]
-extents = Vector2( 2.75076, 8.08758 )
+extents = Vector2( 2.15392, 8.08758 )
 
 [node name="TilesetMapa" type="Node2D"]
 
@@ -166,7 +166,7 @@ region_enabled = true
 region_rect = Rect2( 0, 32, 16, 16 )
 
 [node name="StaticBody2D10" type="StaticBody2D" parent="Sprite11"]
-position = Vector2( 5.24408, 0 )
+position = Vector2( 5.59763, 0 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -260,7 +260,7 @@ region_enabled = true
 region_rect = Rect2( 0, 48, 16, 16 )
 
 [node name="StaticBody2D10" type="StaticBody2D" parent="Sprite17"]
-position = Vector2( 5.24408, 0 )
+position = Vector2( 5.50925, 0 )
 __meta__ = {
 "_edit_group_": true
 }

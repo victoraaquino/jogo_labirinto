@@ -28,6 +28,7 @@ tile_data = PoolIntArray( -131069, 14, 0, -131068, 13, 0, -131067, 13, 0, -13106
 
 [node name="personagem" parent="." instance=ExtResource( 1 )]
 position = Vector2( 132.811, 388.511 )
+scale = Vector2( 0.6, 0.6 )
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( 871.486, 70.801 )
