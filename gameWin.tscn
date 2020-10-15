@@ -39,7 +39,7 @@ size = 78
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=10]
-size = 78
+size = 60
 font_data = ExtResource( 3 )
 
 [node name="Node2D" type="Node2D"]
@@ -72,10 +72,10 @@ __meta__ = {
 }
 
 [node name="voltar" type="Button" parent="."]
-margin_left = 395.183
-margin_top = 210.836
-margin_right = 568.183
-margin_bottom = 330.836
+margin_left = 25.0
+margin_top = 489.0
+margin_right = 160.0
+margin_bottom = 582.0
 custom_fonts/font = SubResource( 10 )
 text = "Inicio"
 flat = true
