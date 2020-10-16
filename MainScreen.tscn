@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://images/MainScreen/Wall.png" type="Texture" id=1]
 [ext_resource path="res://images/MainScreen/Goblet3 .png" type="Texture" id=2]
@@ -33,10 +33,6 @@ region_rect = Rect2( 0, 0, 251, 201 )
 size = 32
 font_data = ExtResource( 10 )
 
-[sub_resource type="DynamicFont" id=5]
-size = 32
-font_data = ExtResource( 10 )
-
 [node name="Node2D" type="Node2D"]
 
 [node name="ParedeBG" type="Sprite" parent="."]
@@ -63,6 +59,7 @@ position = Vector2( 332.657, 264.572 )
 scale = Vector2( 2.59017, 4.89678 )
 frames = SubResource( 2 )
 animation = "foguinho"
+frame = 2
 playing = true
 
 [node name="Tocha" type="Sprite" parent="Tocha1"]
@@ -77,7 +74,6 @@ position = Vector2( 692.987, 263.383 )
 scale = Vector2( 2.59017, 4.89678 )
 frames = SubResource( 2 )
 animation = "foguinho"
-frame = 5
 playing = true
 
 [node name="Tocha2" type="Sprite" parent="Tocha2"]
@@ -95,17 +91,6 @@ custom_fonts/font = SubResource( 4 )
 text = "Play"
 flat = true
 script = ExtResource( 12 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="CheckBox" type="CheckBox" parent="."]
-margin_left = 459.746
-margin_top = 379.251
-margin_right = 573.746
-margin_bottom = 434.251
-custom_fonts/font = SubResource( 5 )
-text = "Music"
 __meta__ = {
 "_edit_use_anchors_": false
 }
