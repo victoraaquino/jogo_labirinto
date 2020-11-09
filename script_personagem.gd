@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-export var speed = 250
+export var speed = 125
 var screen_size
 
 func _ready():
