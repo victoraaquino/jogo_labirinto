@@ -52,7 +52,7 @@ texture = ExtResource( 1 )
 position = Vector2( 102.937, 117.202 )
 scale = Vector2( 8.06353, 8.06353 )
 frames = SubResource( 8 )
-frame = 5
+frame = 1
 playing = true
 
 [node name="Goblet3 " type="Sprite" parent="AnimatedSprite"]

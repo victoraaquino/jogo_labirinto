@@ -59,7 +59,7 @@ position = Vector2( 332.657, 264.572 )
 scale = Vector2( 2.59017, 4.89678 )
 frames = SubResource( 2 )
 animation = "foguinho"
-frame = 2
+frame = 1
 playing = true
 
 [node name="Tocha" type="Sprite" parent="Tocha1"]
@@ -74,6 +74,7 @@ position = Vector2( 692.987, 263.383 )
 scale = Vector2( 2.59017, 4.89678 )
 frames = SubResource( 2 )
 animation = "foguinho"
+frame = 6
 playing = true
 
 [node name="Tocha2" type="Sprite" parent="Tocha2"]
